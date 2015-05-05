@@ -31,4 +31,7 @@ Route::get('/{pays}/{ville}', function($pays,$ville) {
 	return Response::json($villes);
 });
 
-	
+	Route::get('/', function() {
+echo("hi! this is working");
+
+});
