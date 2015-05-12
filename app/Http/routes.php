@@ -32,6 +32,6 @@ Route::get('/{pays}/{ville}', function($pays,$ville) {
 });
 
 	Route::get('/', function() {
-echo("hi! this is working bro");
+echo("hi! this is working broooo");
 
 });
